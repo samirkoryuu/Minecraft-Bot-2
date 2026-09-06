@@ -1,5 +1,5 @@
 {
-  "name": "AFK Bot",
+  "name": "Observer",
   "bot-account": {
     "username": "Observer",
     "password": "",
@@ -10,77 +10,31 @@
     "version": "1.20.1",
     "try-creative": false
   },
-  "position": {
-    "enabled": true,
-    "x": 0,
-    "y": 100,
-    "z": 0
-  },
+  "position": { "enabled": false },
   "utils": {
-    "auto-auth": {
-      "enabled": true,
-      "password": "IamBotto"
-    },
-    "anti-afk": {
-      "enabled": true,
-      "sneak": true
-    },
+    "auto-auth": { "enabled": true, "password": "IamBotto" },
+    "anti-afk": { "enabled": true, "sneak": true },
     "chat-messages": {
       "enabled": true,
       "repeat": true,
       "repeat-delay": 120,
-      "messages": [
-        "I'm a regular player",
-        "Subscribe to Samir Koryuu!",
-        "The Immortal has fallen..."
-      ]
+      "messages": ["I'm a regular player", "The Immortal has fallen..."]
     },
-    "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
+    "auto-reconnect-delay": 5000
   },
   "movement": {
-    "enabled": true,
-    "circle-walk": {
-      "enabled": true,
-      "radius": 4,
-      "speed": 3000
-    },
-    "look-around": {
-      "enabled": true,
-      "interval": 5000
-    },
-    "random-jump": {
-      "enabled": true,
-      "interval": 10000
-    }
+    "enabled": false,
+    "circle-walk": { "enabled": false },
+    "look-around": { "enabled": true, "interval": 10000 },
+    "random-jump": { "enabled": false }
   },
   "modules": {
-    "avoidMobs": true,
-    "combat": true,
+    "avoidMobs": false,
+    "combat": false, 
     "beds": false,
     "chat": true,
     "console-commands": true
   },
-  "combat": {
-    "attack-mobs": true,
-    "auto-eat": true
-  },
-  "beds": {
-    "pick-up-day": false,
-    "place-night": false
-  },
-  "discord": {
-    "enabled": false,
-    "webhookUrl": "",
-    "events": {
-      "connect": true,
-      "disconnect": true,
-      "chat": false
-    }
-  },
-  "chat": {
-    "respond": true
-  }
+  "discord": { "enabled": false }
 }
