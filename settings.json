@@ -10,7 +10,6 @@
     "version": "1.20.1",
     "try-creative": false
   },
-  "position": { "enabled": false },
   "utils": {
     "auto-auth": { "enabled": true, "password": "IamBotto" },
     "anti-afk": { "enabled": true, "sneak": true },
@@ -23,18 +22,12 @@
     "auto-reconnect": true,
     "auto-reconnect-delay": 5000
   },
-  "movement": {
-    "enabled": false,
-    "circle-walk": { "enabled": false },
-    "look-around": { "enabled": true, "interval": 10000 },
-    "random-jump": { "enabled": false }
-  },
+  "movement": { "enabled": false },
   "modules": {
     "avoidMobs": false,
-    "combat": false, 
+    "combat": false,
     "beds": false,
-    "chat": true,
-    "console-commands": true
+    "chat": true
   },
   "discord": { "enabled": false }
 }
