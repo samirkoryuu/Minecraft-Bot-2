@@ -1217,7 +1217,6 @@ function createBot() {
       password: config["bot-account"].password || undefined,
       auth: config["bot-account"].type,
       host: config.server.ip,
-      port: config.server.port,
       version: botVersion,
       hideErrors: false,
       checkTimeoutInterval: 600000,
