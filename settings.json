@@ -6,8 +6,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "EternalFantasySMP.aternos.me",
-    "port": 42086,
+    "ip": "eternalfantasysmp.play.hosting",
+    "port": 25711,
     "version": "1.20.1",
     "try-creative": false
   },
